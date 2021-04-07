@@ -4,13 +4,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol";
 
-contract PupperCoin is ERC20, ERC20Detailed, ERC20Mintable {
-    constructor(
-        string memory name,
-        string memory symbol,
-        uint initial_supply
+contract FMCoin is ERC20, ERC20Detailed, ERC20Mintable {//Ownable-FM RE Foundation will be responsible for token management
+    constructor("FMCoin", "FMS"
+        uint initial_supply = 21
     )
-        ERC20Detailed(name, symbol, 18)
+        ERC20Detailed(FMCoin, FMS, 18)
         public
     {
         // constructor can stay empty
