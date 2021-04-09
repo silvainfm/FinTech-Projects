@@ -1,6 +1,6 @@
-# FinTech Homework
+# FinTech Projects
 
 
-This repository contains projects I have done as homework for the FinTech bootcamp @ Northwestern that I am currently doing. 
+This repository contains projects I have done for the FinTech bootcamp @ Northwestern. 
 
-It demonstrates the new skills I am in the process of acquiring, such as: Python, Git, Github, SQL and many others to come!
+It demonstrates the new skills I have acquired, such as: Python, Git, Github, SQL, Solidity, and other machine learning packages. 
